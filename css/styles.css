@@ -1,0 +1,266 @@
+.clear{
+    clear:both;
+}
+body{
+	background: #f6e8d3 url(ocean_blur.jpg) center center no-repeat;
+	background-attachment: fixed;
+}
+
+#fixed_background_layer{
+	width: 1200px;
+	height: 700px;
+	background: #f6e8d3 url(ocean_blur.jpg) center center no-repeat;
+}
+#fixed_stripe{
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background: #1b719c;
+    background: -moz-linear-gradient(top, #1b719c, #14506e); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom, 
+                color-stop(0%,#1b719c), color-stop(100%,#14506e));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #1b719c, #14506e);
+    background: -o-linear-gradient(top, #1b719c, #14506e); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #1b719c, #14506e); /* IE10 */
+    background: linear-gradient(top, #1b719c, #14506e); /* CSS3 */
+	-pie-background: linear-gradient(to bottom, #1b719c, #14506e); /*ie 6-9 via PIE*/
+	behavior: url(csspie/PIE.htc);	
+}
+#fixed_stripe_center{
+    margin: 0 auto;
+	width: 870px;
+	height: 100%;
+}
+#a_logo{
+	float: left;
+	display: block;
+	margin-top: 15px; 
+	margin-left: 15px;
+}
+
+
+#menu{
+	display: inline-block;
+	float: right;
+	margin-top: -2px;
+}
+
+#menu ul li{
+	float: left;
+	display: inline;
+}
+#menu ul li a{
+	display: block;
+	text-decoration: none;
+	font: 18px "Proxima nova","Helvetica Neue",Helvetica,Arial,Sans-serif;
+	height: 100px;	
+	line-height: 100px;
+	text-align: center;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: white;
+}
+#menu ul li a:hover{
+	color: #fbfe03;
+}
+
+#empty_stripe{
+	height: 100px;
+}
+#about, #services, #massage, #reference, #contacts {
+    margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	width: 760px;
+	padding-left: 55px;
+	padding-right: 55px;
+	background-color: white;
+	z-index: 10;
+	margin-bottom: 100px;
+}
+#sheet{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f7f7f7;
+}
+#section_wide{
+	width: 100%;
+
+}
+
+h1{
+	font: 34px "Proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	color: #5a5a5a;
+	margin-bottom: 65px;
+	text-align: center;
+}
+h2{
+	font: 24px "Proxima nova","Helvetica Neue",Helvetica,Arial,Sans-serif;
+	color: #5a5a5a;	
+	margin-bottom: 40px;
+	text-align: center;
+}
+#p_left{
+	float: left;
+	width: 400px;
+	font: 16px "Proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	color: #5a5a5a;
+	line-height: 22px;
+
+}
+#img_photo{
+	float: right;
+	margin-right: 20px;
+}
+
+#p_usual{
+	font: 16px "Proxima nova", "Helvetica Neue", Helvetica,Arial, Sans-serif;
+	color: #5a5a5a;
+	line-height: 22px;
+}
+#p_right{
+	font: 16px "Proxima nova", "Helvetica Neue", Helvetica,Arial, Sans-serif;
+	color: #5a5a5a;
+	line-height: 22px;
+	text-align: right;
+	margin-right: 15px;
+}
+#p_half{
+	float: left;
+	width: 345px;
+	font: 16px "Proxima nova", "Helvetica Neue", Helvetica,Arial, Sans-serif;
+	color: #5a5a5a;
+	margin-right: 50px;
+	line-height: 22px;
+}
+
+#a_amta_logo{
+	display: block;
+	margin-left: 230px;
+	width: 300px;
+}
+#img_sunset{
+	float: left;
+	margin-top: 200px;
+}
+
+#img_bodies{
+	margin-top: 100px;
+}
+
+#p_gray{
+	width: 725px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #f0f0f0;
+	color: #5a5a5a;
+	font: 24px "Proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+#p_gray span{
+	color: #228abd;
+
+}
+#p_big{
+	font: 24px "Proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	color: #5a5a5a;
+}
+
+#form_right{
+	display: block;
+	margin-right: 93px;
+	padding-top: 10px;
+	width: 100px;
+}
+#form_left, #form_right{
+	float: left;
+}
+#form_left{
+	margin-right: 50px;
+	padding-top: 15px;
+}
+
+
+#input_name, #input_email_or_phone,#input_firstname,#input_lastname,#input_phone,#input_password,#input_email{
+	width: 230px;
+	height: 35px;
+	border: 1px solid #999999;
+	color: #666666;
+	font: 24px "Proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	padding-left: 10px;
+}
+#input_name,#input_firstname,#input_lastname,#input_phone,#input_password,#input_email{
+	margin-bottom: 8px;
+	box-shadow: inset 0 1px 1px 0px #a5a5a5;
+	-moz-box-shadow: inset 0 1px 1px 0px #a5a5a5; /* Äëÿ Firefox */
+    -webkit-box-shadow: inset 0 1px 1px 0px #a5a5a5; /* Äëÿ Safari è Chrome */
+	behavior: url(csspie/PIE.htc);
+}
+#input_email_or_phone{
+	margin-bottom: 30px;
+	box-shadow: inset 0 1px 1px 0px #a5a5a5;
+	-moz-box-shadow: inset 0 1px 1px 0px #a5a5a5; /* Äëÿ Firefox */
+    -webkit-box-shadow: inset 0 1px 1px 0px #a5a5a5; /* Äëÿ Safari è Chrome */
+	behavior: url(csspie/PIE.htc);
+}
+#textarea_complaint{
+	box-shadow: inset 0 1px 1px 0px #a5a5a5;
+	width: 350px;
+	height: 225px;
+	border: 1px solid #999999;
+	color: #666666;
+	font: 24px "Proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	padding-left: 10px;
+	vertical-align: top;
+	padding-top: 10px;
+	margin-bottom: 35px;
+}
+
+
+#p_large{
+	text-align: center;
+	font: 24px "Proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	color: black;
+	margin-bottom: 10px;
+}
+#p_small{
+	text-align: center;
+	font: 12px "Proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 10px;
+}
+#p_medium{
+	text-align: center;
+	font: 18px "Proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	color: black;
+}
+#p_text{
+	margin-left: 70px;
+	font: 16px "Proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	color: black;
+	margin-top: 70px;
+	width: 600px;
+	line-height: 22px;
+}
+#img_signature{
+	margin-left: 60px;
+	margin-top: 30px;
+}
+#footer_stripe{
+	height: 1px;
+	margin-top: 150px;
+	margin-bottom: 30px;
+	width: 100%;
+	background-color: #336699;
+}
+#p_serving{
+	font: 26px "Proxima nova", "Helvetica Neue", Helvetica,Arial, Sans-serif;
+	color: #5a5a5a;
+	line-height: 42px;
+	text-align: center;
+	margin-top: 50px;
+}
+/* rollover jQuery */

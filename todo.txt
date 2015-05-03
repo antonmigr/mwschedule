@@ -1,0 +1,30 @@
+Things still to do:
+most important:
+
+-increase cell height in admin page
+-events overlap
+
+less important:
+-add 30 mins to every new patient slot and subtract 30 too
+-add type checkboxes for new slots on the admin page
+-adjacent slots should be morphed into one in the client page
+-when user clicks on a slot before today's date, it still asks
+them if they want to book
+
+
+multiprogramming
+device queees
+long term scheduler
+zombie process
+background process
+named pipes
+test and set
+petersons solution
+lwp
+grand central dispatch
+amdahls law
+
+1.4 - services?
+1.14
+1.30
+3.18
