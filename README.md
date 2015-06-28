@@ -1,0 +1,2 @@
+# mwschedule
+A web-based scheduling system for Russian Pro Massage (the business's website is www.russianpromassage.com).  Written in PHP and JavaScript.  To view a demo, visit http://www.russianpromassage.com/new/massage.html and click "Book your appointment now" to see how the appointment scheduling process works.  The admin page where appointments can be viewed, added and deleted is located at www.russianpromassage.com/new/adminschedule.php .
